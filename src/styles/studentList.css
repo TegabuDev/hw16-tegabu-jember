@@ -15,8 +15,8 @@
 }
 
 .table-container thead th {
-    background-color: var(--green-light);
-    color: #ffffff;
+    background-color: var(--green-light2);
+    color:var(--green-light1);
     text-align: left;
     position: sticky; 
     top: 0px;

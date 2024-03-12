@@ -1,6 +1,8 @@
+import { utilService } from "../services/utilService";
+
 const students = [
   {
-    id: 1,
+    id: utilService.generateId(),
     name: "Brad Pitt",
     age: 24,
     major: "Film Studies",
@@ -8,7 +10,7 @@ const students = [
     averageGrade: 88,
   },
   {
-    id: 2,
+    id: utilService.generateId(),
     name: "Angelina Jolie",
     age: 22,
     major: "International Relations",
@@ -16,7 +18,7 @@ const students = [
     averageGrade: 92,
   },
   {
-    id: 3,
+    id: utilService.generateId(),
     name: "Leonardo DiCaprio",
     age: 23,
     major: "Environmental Science",
@@ -24,7 +26,7 @@ const students = [
     averageGrade: 90,
   },
   {
-    id: 4,
+    id: utilService.generateId(),
     name: "Meryl Streep",
     age: 21,
     major: "Drama",
@@ -32,7 +34,7 @@ const students = [
     averageGrade: 95,
   },
   {
-    id: 5,
+    id: utilService.generateId(),
     name: "Denzel Washington",
     age: 25,
     major: "Political Science",
@@ -40,7 +42,7 @@ const students = [
     averageGrade: 87,
   },
   {
-    id: 6,
+    id: utilService.generateId(),
     name: "Kate Winslet",
     age: 22,
     major: "Literature",
@@ -48,7 +50,7 @@ const students = [
     averageGrade: 91,
   },
   {
-    id: 7,
+    id: utilService.generateId(),
     name: "Tom Hanks",
     age: 24,
     major: "History",
@@ -56,7 +58,7 @@ const students = [
     averageGrade: 89,
   },
   {
-    id: 8,
+    id: utilService.generateId(),
     name: "Natalie Portman",
     age: 23,
     major: "Psychology",

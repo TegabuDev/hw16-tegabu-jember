@@ -14,9 +14,10 @@
     --red-dark: #842029;
     --yellow: rgb(251, 191, 0);
     
-    --green-light: #d1e7dd;
+    --green-light1: #d1e7dd;
     --green-dark: #0f5132;
-    --green-light:#009879;
+    --green-light2:#009879;
+
 
     --primary-100: #e2e0ff;
     --primary-200: #c1beff;
@@ -41,7 +42,7 @@
     --grey-900: #0f172a;
     /* rest of the colors */
 
-    --backgroundColor: var(--grey-50);
+    --backgroundColor: var(--grey-400);
     --textColor: var(--grey-900);
     --borderRadius: 0.25rem;
     --letterSpacing: 1px;

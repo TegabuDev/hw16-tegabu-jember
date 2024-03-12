@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <div className='footer-container'>
       <div>
-        <p>© 2021 Dave Chesson. All rights reserved. by Tegabu Jem</p>
+        <p>© 2024 Tegabu Jem. All rights reserved. </p>
       </div>
     </div>
   )
